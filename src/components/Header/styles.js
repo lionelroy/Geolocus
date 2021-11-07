@@ -2,6 +2,10 @@
 import { alpha, makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
+  appBar: {
+    position: 'static',
+    backgroundColor: alpha(theme.palette.common.black, 0.8),
+  },
   title: {
     display: 'none',
     [theme.breakpoints.up('sm')]: {
