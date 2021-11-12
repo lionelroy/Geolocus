@@ -4,9 +4,17 @@ import { alpha, makeStyles } from '@material-ui/core/styles';
 export default makeStyles((theme) => ({
   appBar: {
     position: 'static',
-    backgroundColor: alpha(theme.palette.common.black, 0.8),
+    backgroundColor: alpha(theme.palette.common.black, 0.99),
   },
-  title: {
+  logo: {
+    [theme.breakpoints.up('sm')]: {
+      display: 'block',
+      width: '11rem',
+      height: 'auto',
+      marginBottom: '4px',
+    },
+  },
+  searchBarInfo: {
     display: 'none',
     [theme.breakpoints.up('sm')]: {
       display: 'block',
@@ -15,10 +23,10 @@ export default makeStyles((theme) => ({
   search: {
     position: 'relative',
     borderRadius: theme.shape.borderRadius,
-    backgroundColor: alpha(theme.palette.common.white, 0.15),
-    '&:hover': { backgroundColor: alpha(theme.palette.common.white, 0.25) },
-    marginRight: theme.spacing(2),
-    marginLeft: 0,
+    backgroundColor: alpha(theme.palette.common.white, 0.25),
+    '&:hover': { backgroundColor: alpha(theme.palette.common.white, 0.40) },
+    marginRight: theme.spacing(4),
+    marginLeft: 5,
     width: '100%',
     [theme.breakpoints.up('sm')]: { marginLeft: theme.spacing(3), width: 'auto' },
   },
