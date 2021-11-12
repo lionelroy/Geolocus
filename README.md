@@ -1,7 +1,7 @@
 # geYo
 Maps application that lets the user search for restaurants, hotels, attractions and more. 
 
-<a class="README-link" href="https://lionelroy.github.io/Geolocus/">Live Demo</a>
+<a class="README-link" href="https://lionelroy.github.io/Geolocus/src.index.html">Live Demo</a>
 
 <h3>Technologies:</h3>
  <ul>
