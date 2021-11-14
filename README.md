@@ -11,9 +11,9 @@ Maps application that lets the user search for restaurants, hotels, attractions 
  </ul>
 
 ## Preview:
-<img src="public/cell.jpg" alt="cell" width="250"/>
-<img src="public/tablet.jpg" alt="ipad" width="500"/>
-<img src="public/desktop.jpg" alt="desktop" width="700"/>
+<img src="public/cell.png" alt="cell" width="250"/>
+<img src="public/tablet.png" alt="ipad" width="500"/>
+<img src="public/desktop.png" alt="desktop" width="700"/>
 
  <h3>APIs:</h3>
  <ul>
