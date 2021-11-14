@@ -7,12 +7,11 @@ export default makeStyles((theme) => ({
     backgroundColor: alpha(theme.palette.common.black, 0.99),
   },
   logo: {
+      height: '50px',
+      width: 'auto',
     [theme.breakpoints.up('sm')]: {
       display: 'block',
-      width: '8rem',
-      height: 'auto',
-      marginBottom: '3px',
-      marginTop: '2px',
+      marginBottom: '2px',
     },
   },
   searchBarInfo: {

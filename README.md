@@ -7,7 +7,6 @@ Maps application that lets the user search for restaurants, hotels, attractions 
  <ul>
     <li>REACT</li>
     <li>Material-UI</li>
-    <li>REACT</li>
     <li>Netlify</li>
  </ul>
 
