@@ -9,9 +9,10 @@ export default makeStyles((theme) => ({
   logo: {
     [theme.breakpoints.up('sm')]: {
       display: 'block',
-      width: '11rem',
+      width: '8rem',
       height: 'auto',
-      marginBottom: '4px',
+      marginBottom: '3px',
+      marginTop: '2px',
     },
   },
   searchBarInfo: {

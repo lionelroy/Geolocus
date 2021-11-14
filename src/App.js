@@ -24,6 +24,7 @@ const App = () => {
         'cursive',
       ].join(','),
     },});
+    
   
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(({ coords: {latitude, longitude} }) => {
