@@ -11,9 +11,9 @@ Maps application that lets the user search for restaurants, hotels, attractions 
  </ul>
 
 ## Preview:
-<img src="public/cell.png" alt="cell" width="250"/>
-<img src="public/tablet.png" alt="ipad" width="500"/>
-<img src="public/desktop.png" alt="desktop" width="700"/>
+<img src="src/assets/images/mobile.png" alt="mobile" width="250"/>
+<img src="src/assets/images/tablet.png" alt="ipad" width="500"/>
+<img src="src/assets/images/desktop.png" alt="desktop" width="750"/>
 
  <h3>APIs:</h3>
  <ul>
@@ -34,11 +34,10 @@ Maps application that lets the user search for restaurants, hotels, attractions 
 <h3>Learned:</h3>
 <ul>
   <li>React best practices folder/file structure.</li>
-  <li>Hooks (Hooks are a new addition in React 16.8. 
-  They let you use state and other React features without writing a class.)</li>
+  <li>Hooks (let's you use state and other React features without writing a class.)</li>
   <li>refs (Refs provide a way to access DOM nodes or 
   React elements created in the render method).</li>
-  <li>mprove security with environment variables.</li>
+  <li>Improve security with environment variables.</li>
   <li>GeoLocation.</li>
   <li>Google Cloud Platform.</li>
   <li>Axios library which is used to make requests to an API, 
