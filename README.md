@@ -44,5 +44,6 @@ Maps application that lets the user search for restaurants, hotels, attractions 
   <li>Axios library which is used to make requests to an API, 
   return data from the API, and then do things with that data in our React application.</li>
   <li>Data filtering.</li>
+  <li>Snazzy Maps styling</li>
 </ul>
 
